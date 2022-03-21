@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 
 export const Layout: React.FC = ({children}) => {
     return (
